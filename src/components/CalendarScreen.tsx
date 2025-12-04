@@ -7,7 +7,7 @@ import { Textarea } from './ui/textarea';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from './ui/dialog';
 import { Storage, EmotionEntry, User } from '../utils/storage';
 import { SerenaAI } from '../utils/serena-ai';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface CalendarScreenProps {
   user: User;

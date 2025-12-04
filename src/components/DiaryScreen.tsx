@@ -5,7 +5,7 @@ import { Button } from './ui/button';
 import { Textarea } from './ui/textarea';
 import { Card } from './ui/card';
 import { Storage, EmotionEntry, User } from '../utils/storage';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { SerenaAI } from '../utils/serena-ai';
 
 interface DiaryScreenProps {

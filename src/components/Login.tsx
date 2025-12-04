@@ -7,7 +7,7 @@ import { Label } from './ui/label';
 import { Separator } from './ui/separator';
 import { Validator, ValidationResult } from '../utils/validation';
 import { Storage } from '../utils/storage';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 // Componente de icono de Google
 const GoogleIcon = () => (

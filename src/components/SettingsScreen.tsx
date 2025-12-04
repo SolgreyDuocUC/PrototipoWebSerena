@@ -3,7 +3,7 @@ import { User, Mail, LogOut, Trash2, Moon, Sun } from 'lucide-react';
 import { Button } from './ui/button';
 import { Card } from './ui/card';
 import { Storage } from '../utils/storage';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 import { useState } from 'react';
 
 interface SettingsScreenProps {

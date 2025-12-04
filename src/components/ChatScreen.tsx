@@ -6,7 +6,7 @@ import { Input } from './ui/input';
 import { Card } from './ui/card';
 import { Storage, ChatMessage, User } from '../utils/storage';
 import { SerenaAI } from '../utils/serena-ai';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface ChatScreenProps {
   user: User;
